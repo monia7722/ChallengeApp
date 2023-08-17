@@ -6,7 +6,7 @@ string gender = "k";
 var age = 33;
 string nationality = "Polka";
 
-if (age < 30)
+if (age < 30 && gender == "k")
 {
     Console.WriteLine("Kobieta ponizej 30 lat");
 }
@@ -14,7 +14,7 @@ else if (name == "Ewa" && age == 33)
 {
     Console.WriteLine("Ewa, lat 33.");
 }
-else if (gender != "k")
+else if (gender != "k" && age < 18)
 {
     Console.WriteLine("Niepełnoletni męzczyzna");
 }
