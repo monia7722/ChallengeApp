@@ -20,5 +20,5 @@ else if (gender != "k")
 }
 else if (name == "Ewa" && nationality == "Polka")
 {
-    Console.WriteLine ("Ewa jest Polką");
+    Console.WriteLine ("Ewa jest Polką.");
 }
